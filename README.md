@@ -1,2 +1,2 @@
-# FastAPI---The-Complete-Course
+# FastAPI-Course
 FastAPI Course
