@@ -22,11 +22,16 @@ This repository contains all practice projects, code snippets, and examples from
 
 ```
 FastAPI-Course/
-├── books.py              # Sample endpoint file
-├── users.py              # Additional route file (example)
-├── fastapienv/           # Virtual environment
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
+├── fastapienv/              # Python virtual environment (excluded via .gitignore)
+├── Project1/                # Folder for app modules and assets
+│   ├── __init__.py          # Makes Project1 a package
+│   ├── books.py             # FastAPI endpoints for book-related routes
+│   ├── BOOKS.md             # Markdown notes or documentation
+│   └── image.png            # Image asset used in the project
+├── .gitignore               # Git ignore rules
+├── pyvenv.cfg               # Python virtual env config
+├── README.md                # Project overview and setup instructions
+
 ```
 
 ---
