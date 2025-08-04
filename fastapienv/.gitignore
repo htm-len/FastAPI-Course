@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But don't ignore these:
+!.gitignore
+!README.md
+!Project1/
+!Project1/**/*
